@@ -1,4 +1,4 @@
-# 🛍️ ProductHub - Modern E-commerce Product Catalog
+# 🛍️ ProductHub | Modern E-commerce Product Catalog
 
 A responsive React.js e-commerce product catalog featuring advanced filtering, smooth scroll animations, and comprehensive accessibility features. Built with modern web technologies for optimal user experience and performance. The app provides a seamless shopping experience with real-time product display, intelligent cart management, and modern UI/UX design.
 
@@ -21,7 +21,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
 ## 🌐 Demo (Live Preview)
 
-**🚀 View Live Demo:** []()
+**🚀 View Live Demo:** [https://ahmed-maher77.github.io/ProductHub\_\_\_Modern-E-commerce-Product-Catalog](https://ahmed-maher77.github.io/ProductHub___Modern-E-commerce-Product-Catalog)
 
 ---
 
@@ -61,7 +61,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
 ## 🎥 Watch the Demo on LinkedIn
 
-** 📺 Watch Demo Video:**  []()
+**📺 Watch Demo Video:** []()
 
 ---
 
@@ -86,30 +86,18 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
     ```bash
     npm install
-    # or
-    yarn install
     ```
 
 3. **Start development server**
 
     ```bash
     npm run dev
-    # or
-    yarn dev
     ```
 
 4. **Open in browser**
     ```
     http://localhost:5173
     ```
-
-### Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-```
 
 ---
 
@@ -118,9 +106,9 @@ yarn build
 ### 🤝 **Get in Touch**
 
 -   **Portfolio:** [ahmedmaher-portfolio.vercel.app](https://ahmedmaher-portfolio.vercel.app/)
--   **LinkedIn:** [Ahmed Maher AlGohary](https://www.linkedin.com/in/ahmed-maher-algohary)
--   **GitHub:** [@Ahmed-Maher77](https://github.com/Ahmed-Maher77)
--   **Email:** [ahmed.maher.algohary@gmail.com](mailto:ahmed.maher.algohary@gmail.com)
+-   **LinkedIn:** [https://www.linkedin.com/in/ahmed-maher-algohary](https://www.linkedin.com/in/ahmed-maher-algohary)
+-   **GitHub:** [https://github.com/Ahmed-Maher77](https://github.com/Ahmed-Maher77)
+-   **Email:** [ahmedmaher.dev1@gmail.com](mailto:ahmedmaher.dev1@gmail.com)
 
 ### 🔧 **Contributing**
 
