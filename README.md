@@ -21,7 +21,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
 ## 🌐 Demo (Live Preview)
 
-**🚀 View Live Demo:** []()
+**🚀 View Live Demo:** [https://producthub-ecommerce-catalog.netlify.app/](https://producthub-ecommerce-catalog.netlify.app/)
 
 ---
 
@@ -67,7 +67,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
 ## 👀 Website Preview
 
-<a href="website-url" title="demo">
+<a href="https://producthub-ecommerce-catalog.netlify.app/" title="demo">
   <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
 </a>
 
