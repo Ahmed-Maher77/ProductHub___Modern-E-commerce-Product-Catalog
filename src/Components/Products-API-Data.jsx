@@ -1,10 +1,9 @@
 import { useEffect } from "react";
 
-const Products_API_Data = ({ onDataFetch, onError }) => {
+const Products_API_Data = ({ onDataFetch }) => {
 	useEffect(() => {
 		(async function () {
 			try {
-				console.log("Fetching products from API...");
 				const res = await fetch("https://fakestoreapi.com/products");
 				if (!res.ok) {
 					throw new Error(`HTTP error! status: ${res.status}`);
@@ -14,14 +13,10 @@ const Products_API_Data = ({ onDataFetch, onError }) => {
 				onDataFetch(jsonRes);
 			} catch (error) {
 				console.error("Error fetching products:", error);
-				if (onError) {
-					onError(error);
-				} else {
-					onDataFetch([]);
-				}
+				onDataFetch([]);
 			}
 		})();
-	}, [onDataFetch, onError]);
+	}, []);
 	return <div></div>;
 };
 

@@ -14,34 +14,10 @@ const Products = () => {
 
 	// Handle API data response
 	const handleApiData = useCallback((jsonRes) => {
+		console.log("Products received:", jsonRes);
 		setProducts(jsonRes);
 		setFilterData(jsonRes);
 		setIsLoading(false);
-	}, []);
-
-	// Add error handling for API failures
-	const handleApiError = useCallback((error) => {
-		console.error("API Error:", error);
-		setIsLoading(false);
-		// Set some fallback data for testing
-		setProducts([
-			{
-				id: 1,
-				title: "Test Product",
-				price: 99.99,
-				category: "electronics",
-				image: "https://via.placeholder.com/200x200?text=Test+Product"
-			}
-		]);
-		setFilterData([
-			{
-				id: 1,
-				title: "Test Product",
-				price: 99.99,
-				category: "electronics",
-				image: "https://via.placeholder.com/200x200?text=Test+Product"
-			}
-		]);
 	}, []);
 
 	// Filter handlers
@@ -203,7 +179,7 @@ const Products = () => {
 				filterByCategory={filterByCategory}
 				filterByPrice={filterByPrice}
 			/>
-			<Products_API_Data onDataFetch={handleApiData} onError={handleApiError} />
+			<Products_API_Data onDataFetch={handleApiData} />
 			<section aria-label="Products grid">
 				<div className="container py-4 d-flex flex-wrap product-parent-flex">
 					{showProducts()}

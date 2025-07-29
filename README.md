@@ -21,7 +21,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 
 ## 🌐 Demo (Live Preview)
 
-**🚀 View Live Demo:** [https://ahmed-maher77.github.io/ProductHub\_\_\_Modern-E-commerce-Product-Catalog](https://ahmed-maher77.github.io/ProductHub___Modern-E-commerce-Product-Catalog)
+**🚀 View Live Demo:** []()
 
 ---
 
