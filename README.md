@@ -68,7 +68,7 @@ A responsive React.js e-commerce product catalog featuring advanced filtering, s
 ## 👀 Website Preview
 
 <a href="https://producthub-ecommerce-catalog.netlify.app/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/3ca7c1a9-9bf9-449f-91c8-ff176d64ab3c" alt="website preview - UI Mockup" width="400">
 </a>
 
 ---
